@@ -23,8 +23,12 @@ export default function Footer() {
           </div>
           <div className="flex flex-col text-[14px] gap-[16px]">
             <div className="font-bold">More</div>
-            <div className="hover:text-[#111] cursor-pointer">Next.js Commerce</div>
-            <div className="hover:text-[#111] cursor-pointer">Contract Sales</div>
+            <div className="hover:text-[#111] cursor-pointer">
+              Next.js Commerce
+            </div>
+            <div className="hover:text-[#111] cursor-pointer">
+              Contract Sales
+            </div>
             <div className="hover:text-[#111] cursor-pointer">Github</div>
             <div className="hover:text-[#111] cursor-pointer">Releases</div>
             <div className="hover:text-[#111] cursor-pointer">Telemetry</div>
@@ -32,7 +36,9 @@ export default function Footer() {
           </div>
           <div className="flex flex-col text-[14px] gap-[16px]">
             <div className="font-bold">About Vercel</div>
-            <div className="hover:text-[#111] cursor-pointer">Next.js + Vercel</div>
+            <div className="hover:text-[#111] cursor-pointer">
+              Next.js + Vercel
+            </div>
             <div className="hover:text-[#111] cursor-pointer">
               Open Source Software
             </div>
@@ -42,7 +48,9 @@ export default function Footer() {
           </div>
           <div className="flex flex-col text-[14px] gap-[16px]">
             <div className="font-bold">Legal</div>
-            <div className="hover:text-[#111] cursor-pointer">Privacy Policy</div>
+            <div className="hover:text-[#111] cursor-pointer">
+              Privacy Policy
+            </div>
           </div>
         </div>
       </div>
