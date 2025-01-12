@@ -25,8 +25,8 @@ export default function Home() {
         Used by some of the world's largest companies, Next.js enables you to
         create high-quality web applications with the power of React components.
       </h3>
-      <br />
-      <br />
+      <br/>
+      <br/>
       <Row className="w-full" gutter={[20, 20]}>
         <Col span={8}>
           <Card
@@ -43,13 +43,13 @@ export default function Home() {
             header={
               <div className="relative w-[278px] h-[211px] left-1/2 transform -translate-x-1/2">
                 <div className="absolute z-10">
-                  <Original />
+                  <Original/>
                 </div>
                 <div className="absolute z-20 top-[60px] left-[-20px]">
-                  <R_1440px ref={ref1440} />
+                  <R_1440px ref={ref1440}/>
                 </div>
                 <div className="absolute z-30 top-[120px] left-[-40px]">
-                  <R_375px ref={ref375} />
+                  <R_375px ref={ref375}/>
                 </div>
               </div>
             }
@@ -59,7 +59,7 @@ export default function Home() {
         </Col>
         <Col span={8}>
           <Card
-            header={<Streaming />}
+            header={<Streaming/>}
             title="Dynamic HTML Streaming"
             description="Instantly stream UI from the server, integrated with the App Router and React Suspense."
           />
